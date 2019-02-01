@@ -36,6 +36,8 @@
 !
       write(*,*)' Printing Matrix'
 !
-      write(*,*)matrix
+      do i = 1,3
+      write(*,1000)matrix(i,:)
+      end do
       return
       End Subroutine PrintMatrix3x3
